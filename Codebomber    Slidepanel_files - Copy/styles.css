@@ -1,0 +1,124 @@
+	body {
+		font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+		background: #efefef url(../img/bg.jpg) repeat center top;
+		color: #f7f7f7;
+	}
+	
+	a{
+		color: #fff;
+		text-decoration: none;
+	}
+	
+	a:hover {
+		background: #181818;
+	}
+	h2 {
+		margin: 0 0 15px 0;
+	}
+	.section{
+		margin: 0 0 45px 0;
+	}
+	.section p {
+		margin: 5px 0;
+	}
+	
+	.section p.captioned {
+		position: relative;
+		top: 0;
+		left: 0;
+	}
+	.section p.captioned span.caption{
+		background: none repeat scroll 0 0 #0A0A0A;
+		bottom: 7px;
+		font-size: 11px;
+		left: 7px;
+		padding: 5px;
+		position: absolute;
+		width: 535px;
+	}
+	.section img {
+	    border: 1px solid #3A3A3A;
+		margin: 5px;
+		outline: 1px solid #1C1919;
+		padding: 15px;
+	}
+	#sidebar {
+		height: 100%;
+	}
+	
+	#sidebar ul {
+		margin: 0;
+		list-style-type: none;
+	}
+	#sidebar ul li{
+		margin: 8px 0;
+	}
+	#sidebar a {
+	    background: none repeat scroll 0 0 #282828;
+		border-radius: 6px 6px 6px 6px;
+		color: #FFFFFF;
+		padding: 3px;
+		text-decoration: none;
+	}
+	
+	#sidebar a:hover {
+		background: #181818;
+	}
+
+	#header {
+		margin: 75px auto;
+	}
+	
+	#header .slogan {
+		margin: 25px 0;
+		text-shadow: 1px 1px 0 #000000;
+	}
+	#header .slogan span {
+		color: #525252;
+	}
+	#header  h1 a {
+		display: block;
+		width: 60px;
+		height: 60px;
+		background: transparent url(../img/logo.png) no-repeat;
+		text-indent: -9999px;
+	}
+	
+	
+	
+	
+	
+/* ============================== */
+/* ! Layout for desktop version   */
+/* ============================== */
+
+	body {
+		
+	}
+	
+
+/* ============================= */
+/* ! Layout for mobile version   */
+/* ============================= */
+
+@media handheld, only screen and (max-width: 767px) {
+
+	body {
+		
+	}
+
+}
+
+
+/* ========================================== */
+/* ! Provide higher res assets for iPhone 4   */
+/* ========================================== */
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2) { 
+
+/*	.logo {
+		background: url(logo2x.jpg) no-repeat;
+		background-size: 212px 303px;
+	}*/
+
+}
