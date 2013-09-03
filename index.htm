@@ -1,0 +1,94 @@
+
+<!-- saved from url=(0045)http://codebomber.com/jquery/slidepanel/#demo -->
+<html lang="en" style=""><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<meta charset="utf-8">
+	<title>Codebomber // Slidepanel</title>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!--[if lte IE 9]><link rel="stylesheet" href="css/ie.css" type="text/css" media="screen" /><![endif]-->
+	<link rel="stylesheet" href="./Codebomber    Slidepanel_files/1140.css" type="text/css" media="screen">
+	<link rel="stylesheet" href="./Codebomber    Slidepanel_files/gh-buttons.css" type="text/css" media="screen">
+	<link rel="stylesheet" href="./Codebomber    Slidepanel_files/styles.css" type="text/css" media="screen">
+	<link rel="stylesheet" href="./Codebomber    Slidepanel_files/rainbow-blackboard.css" type="text/css" media="screen">
+	<link rel="stylesheet" href="./Codebomber    Slidepanel_files/jquery.slidepanel.css" type="text/css" media="screen">
+	<script type="text/javascript" async="" src="./Codebomber    Slidepanel_files/ga.js"></script><script src="./Codebomber    Slidepanel_files/jquery.min.js"></script>
+	<script type="text/javascript" src="./Codebomber    Slidepanel_files/css3-mediaqueries.js"></script>
+	<script type="text/javascript" src="./Codebomber    Slidepanel_files/rainbow.js"></script>
+	<script type="text/javascript" src="./Codebomber    Slidepanel_files/jquery.slidepanel.js"></script>
+			<link href="skin/blue.monday/jplayer.blue.monday.css" rel="stylesheet" type="text/css" />
+		<script type="text/javascript" src="js/jquery.jplayer.min.js"></script>
+		<script type="text/javascript" src="js/jplayer.playlist.min.js"></script>
+		<script type="text/javascript">
+		//<![CDATA[
+		$(document).ready(function(){
+
+			new jPlayerPlaylist({
+				jPlayer: "#jquery_jplayer_1",
+				cssSelectorAncestor: "#jp_container_1"
+			}, [
+				{
+					title:"Beneath the World",
+					mp3:"music/IntroAndBeneath.mp3",
+				},
+				{
+					title:"Joy and Pain",
+					mp3:"music/JOY & PAIN MM4.mp3",
+				}
+			], {
+
+	  			playlistOptions: {
+		    		enableRemoveControls: true
+	  			},
+				swfPath: "js",
+				supplied: "oga, mp3",
+				wmode: "window",
+				smoothPlayBar: true,
+				keyEnabled: true,
+				autoPlay: true
+			});
+		});
+		//]]>
+		</script>
+</head>
+
+
+<body style="position: absolute;">
+
+<div class="container">
+	<div class="row">
+		<div class="eightcol last">
+			<div class="section">
+				<a href="external.html" data-slidepanel="panel" class="button">Show Panel</a>
+			</div>
+
+			</div>
+
+		</div>
+	</div>
+</div>
+
+<script type="text/javascript">
+    $(document).ready(function(){
+        $('[data-slidepanel]').slidepanel({
+            orientation: 'left',
+            mode: 'push',
+            static: true
+        });
+    });
+</script>
+<script type="text/javascript">
+			var _gaq = _gaq || [];
+			_gaq.push(['_setAccount', 'UA-28658218-1']);
+			_gaq.push(['_trackPageview']);
+		  
+			(function() {
+			  var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+			  ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+			  var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+			})();
+		  
+		  </script>
+
+
+</body>
+</html>
